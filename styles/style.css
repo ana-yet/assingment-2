@@ -140,4 +140,11 @@
     width: 100%;
     text-align: center;
   }
+  .banner-title {
+    font-size: 40px;
+  }
+  .banner-des {
+    font-size: 18px;
+    line-height: 18px;
+  }
 }
