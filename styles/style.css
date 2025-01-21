@@ -208,6 +208,7 @@ hr {
 .our-story {
   background: url(../assets/bg.png),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  padding-bottom: 30px;
 }
 .our-story-title {
   color: rgb(0, 0, 0);
@@ -295,10 +296,23 @@ hr {
   margin: 1rem auto 0;
 }
 /* Footer section */
+.marq {
+  background-color: #add8e6;
+  color: black;
+  position: relative;
+  top: 25%;
+  height: 40px;
+}
+.m-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
 footer {
   height: 550px;
+  justify-content: center;
   align-items: center;
   background: rgb(1, 172, 253);
+  flex-direction: column;
 }
 .footer-containers {
   width: 80%;
