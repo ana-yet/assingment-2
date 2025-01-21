@@ -384,15 +384,6 @@ footer {
     padding: 10px 30px;
   }
   /* header */
-  .nav-functions {
-    display: none;
-  }
-  .header-btn {
-    display: none;
-  }
-  .nav-header h1 {
-    display: none;
-  }
   .menu-btn {
     display: block;
     background: none;
@@ -485,5 +476,8 @@ footer {
   .marq {
     top: 60px;
     height: 40px;
+  }
+  .hide {
+    display: none;
   }
 }
