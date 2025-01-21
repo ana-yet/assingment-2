@@ -351,7 +351,7 @@ footer {
 .social-media {
   gap: 20px;
 }
-
+/* Media query */
 @media screen and (max-width: 576px) {
   body {
     width: 90%;
@@ -427,7 +427,8 @@ footer {
     grid-template-rows: repeat(2, 1fr);
     margin: 10px 0;
     gap: 14px;
-    width: 100%;
+    width: 97.5%;
+    padding: 0 5px;
   }
   .date {
     font-size: 1rem;
