@@ -292,8 +292,66 @@ hr {
   padding: 1rem 4rem;
   text-align: center;
   display: block;
-  margin: 1rem auto;
+  margin: 1rem auto 0;
 }
+/* Footer section */
+footer {
+  height: 550px;
+  align-items: center;
+  background: rgb(1, 172, 253);
+}
+.footer-containers {
+  width: 80%;
+  margin: 0 auto;
+  gap: 150px;
+}
+.container-a {
+  width: 40%;
+}
+.container-about {
+  width: 25%;
+}
+.social-f {
+  width: 25%;
+}
+.c-header {
+  align-items: center;
+  margin-bottom: 35px;
+}
+.c-title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.c-description {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 25px;
+}
+.about-title {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.about-school li {
+  list-style: none;
+  margin-top: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.social-f-title {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.social-media {
+  gap: 20px;
+}
+
 @media screen and (max-width: 576px) {
   body {
     width: 90%;
@@ -320,6 +378,7 @@ hr {
   }
   .menu-btn {
     display: block;
+    background: none;
   }
   .banner {
     flex-direction: column-reverse;
@@ -357,6 +416,9 @@ hr {
     box-sizing: border-box;
   }
   /* Our story */
+  .our-story {
+    padding-bottom: 20px;
+  }
   .story-container-o {
     display: none;
   }
@@ -373,5 +435,32 @@ hr {
   }
   .date1 {
     margin: -20px 10px;
+  }
+  /* Footer */
+  footer {
+    height: auto;
+    padding: 50px 0;
+  }
+  .footer-containers {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .container-a {
+    width: 100%;
+  }
+  .container-about {
+    width: 100%;
+  }
+  .social-f {
+    width: 100%;
+  }
+  .c-title {
+    font-size: 2rem;
+  }
+  .about-school li {
+    margin-top: 8px;
+  }
+  .social-f-title {
+    margin-bottom: 1rem;
   }
 }
