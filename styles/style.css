@@ -120,6 +120,9 @@ hr {
   width: 100%;
   align-items: center;
   margin: 70px 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .curriculum-title {
   font-size: 55px;
@@ -212,6 +215,9 @@ hr {
   background: url(../assets/bg.png),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
   padding-bottom: 30px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .our-story-title {
   color: rgb(0, 0, 0);
